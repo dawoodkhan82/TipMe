@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					8ED77BC11F343328002CBEF5 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RHW8FBGSTX;
 						ProvisioningStyle = Automatic;
 					};
 					8ED77BD51F343329002CBEF5 = {
@@ -412,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RHW8FBGSTX;
 				INFOPLIST_FILE = TipMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dawoodk.TipMe;
@@ -424,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RHW8FBGSTX;
 				INFOPLIST_FILE = TipMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dawoodk.TipMe;
