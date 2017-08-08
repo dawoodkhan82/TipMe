@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet var tipControl: UISegmentedControl!
     @IBOutlet var tipSlider: UISlider!
@@ -19,7 +19,22 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        billField.delegate = self
+        billField.becomeFirstResponder()
+
+        
         // Do any additional setup after loading the view, typically from a nib.
+    
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        let possibleDefaultTipPercentage = UserDefaults.standard.string(forKey: "default_tip_percentage")
+        if let defaultTipPercentage = possibleDefaultTipPercentage {
+            let dtp_f = Float(defaultTipPercentage)!
+            tipSlider?.setValue(dtp_f, animated: true)
+            tipPercentageLabel.text = "\(Int(dtp_f*100))%"
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,12 +47,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func calculateTip(_ sender: Any) {
-        let sliderValue = Int(tipSlider.value)
-        tipPercentageLabel.text = String(sliderValue)
-        let tipPercentagesArray = [0.18, 0.2, 0.25]
+        let tipPercentage = round(100*tipSlider.value) / 100
+        tipPercentageLabel.text = "\(Int(tipPercentage*100))%"
+        
         let bill = Double(billField.text!) ?? 0
-        let tip = bill * tipPercentagesArray[tipControl.selectedSegmentIndex]
+        let tip = bill * Double(tipPercentage)
         let total = bill + tip
+        
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
     }
