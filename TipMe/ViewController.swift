@@ -19,13 +19,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         billField.delegate = self
         billField.becomeFirstResponder()
-
-        
         // Do any additional setup after loading the view, typically from a nib.
-    
     }
     
     override func viewDidAppear(_ animated: Bool) {
