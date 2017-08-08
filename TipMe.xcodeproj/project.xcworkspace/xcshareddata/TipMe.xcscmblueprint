@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0708D266A5D7024727783CAC5346ABBDC4161D9A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3D46FACF8DCD84F3FDD05A6B470A37A895ACBE14" : 9223372036854775807,
+    "0708D266A5D7024727783CAC5346ABBDC4161D9A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "35A4C31A-A671-4BEA-AB0F-6C51E9DA3F90",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3D46FACF8DCD84F3FDD05A6B470A37A895ACBE14" : "TipMe\/TipMe\/",
+    "0708D266A5D7024727783CAC5346ABBDC4161D9A" : "TipMe\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TipMe",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TipMe.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dawoodkhan82\/TipMe.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0708D266A5D7024727783CAC5346ABBDC4161D9A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dawoodkhan82\/TipMe.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3D46FACF8DCD84F3FDD05A6B470A37A895ACBE14"
+    }
+  ]
+}
