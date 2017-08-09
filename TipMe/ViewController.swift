@@ -25,17 +25,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        let possibleDefaultTipPercentage = UserDefaults.standard.string(forKey: "default_tip_percentage")
-        if let defaultTipPercentage = possibleDefaultTipPercentage {
-            let dtp_f = Float(defaultTipPercentage)!
-            tipSlider?.setValue(dtp_f, animated: true)
-            tipPercentageLabel.text = "\(Int(dtp_f*100))%"
+        let possibleDefaultTipPercent = UserDefaults.standard.string(forKey: "default_tip_percentage")
+        if let defaultTipPercent = possibleDefaultTipPercent {
+            let dtp = Float(defaultTipPercent)!
+            tipSlider?.setValue(dtp, animated: true)
+            tipPercentageLabel.text = "\(Int(dtp * 100))%"
         }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
    
     @IBAction func onTap(_ sender: Any) {
@@ -53,7 +52,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
     }
-    
 }
 
 extension UITextField{
