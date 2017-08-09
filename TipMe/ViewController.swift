@@ -21,7 +21,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         billField.delegate = self
         billField.becomeFirstResponder()
-        // Do any additional setup after loading the view, typically from a nib.
+        billField.addDoneButtonToKeyboard(myAction:  #selector(self.billField.resignFirstResponder))
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -53,6 +53,28 @@ class ViewController: UIViewController, UITextFieldDelegate {
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
     }
-
+    
 }
+
+extension UITextField{
+    
+    func addDoneButtonToKeyboard(myAction:Selector?){
+        let doneToolbar: UIToolbar = UIToolbar(frame: CGRect(x: 0, y: 0, width: 300, height: 40))
+        doneToolbar.barStyle = UIBarStyle.blackTranslucent
+        
+        let flexSpace = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.flexibleSpace, target: nil, action: nil)
+        let done: UIBarButtonItem = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.done, target: self, action: myAction)
+        
+        var items = [UIBarButtonItem]()
+        items.append(flexSpace)
+        items.append(done)
+        
+        doneToolbar.items = items
+        doneToolbar.sizeToFit()
+        
+        self.inputAccessoryView = doneToolbar
+    }
+}
+
+
 
