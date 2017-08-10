@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
 
-    @IBOutlet var tipControl: UISegmentedControl!
     @IBOutlet var tipSlider: UISlider!
     @IBOutlet var billField: UITextField!
     @IBOutlet var tipLabel: UILabel!
@@ -23,15 +22,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         billField.becomeFirstResponder()
         billField.addDoneButtonToKeyboard(myAction:  #selector(self.billField.resignFirstResponder))
     }
-    
-//    override func viewDidAppear(_ animated: Bool) {
-//        let possibleDefaultTipPercent = UserDefaults.standard.string(forKey: "default_tip_percentage")
-//        if let defaultTipPercent = possibleDefaultTipPercent {
-//            let dtp = Float(defaultTipPercent)!
-//            tipSlider?.setValue(dtp, animated: true)
-//            tipPercentageLabel.text = "\(Int(dtp * 100))%"
-//        }
-//    }
     
     override func viewWillAppear(_ animated: Bool) {
         let possibleDefaultTipPercent = UserDefaults.standard.string(forKey: "default_tip_percentage")

@@ -25,6 +25,7 @@ class SettingsViewController: UIViewController {
     @IBAction func savePressed(_ sender: Any) {
         let defaults = UserDefaults.standard
         defaults.set(Double(defaultTipSlider.value), forKey: "default_tip_percentage")
+        _ = navigationController?.popToRootViewController(animated: true)
     }
     
     @IBAction func defaultTipValueChanged(_ sender: Any) {
