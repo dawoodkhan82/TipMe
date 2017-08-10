@@ -23,42 +23,42 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1iQ-II-HrU">
-                                <rect key="frame" x="0.0" y="467" width="414" height="269"/>
+                                <rect key="frame" x="0.0" y="423" width="414" height="313"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAK-N3-vPo">
-                                        <rect key="frame" x="266" y="181" width="90" height="60"/>
+                                        <rect key="frame" x="305" y="204" width="90" height="72"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="23"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tip" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0K-h9-fDr">
-                                        <rect key="frame" x="266" y="83" width="90" height="60"/>
+                                        <rect key="frame" x="305" y="94" width="90" height="72"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="23"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Etd-m0-Di3">
-                                        <rect key="frame" x="157" y="45" width="199" height="60"/>
+                                        <rect key="frame" x="157" y="44" width="238" height="72"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="42"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGX-EU-uk8">
-                                        <rect key="frame" x="157" y="143" width="199" height="60"/>
+                                        <rect key="frame" x="157" y="157" width="238" height="72"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="42"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Addition-Symbol" translatesAutoresizingMaskIntoConstraints="NO" id="Cb9-GK-DoZ">
-                                        <rect key="frame" x="66" y="38" width="64" height="74"/>
+                                        <rect key="frame" x="66" y="38" width="64" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dollar-Sign" translatesAutoresizingMaskIntoConstraints="NO" id="Vme-2I-GVd">
-                                        <rect key="frame" x="66" y="141" width="64" height="64"/>
+                                        <rect key="frame" x="66" y="151" width="64" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
@@ -73,13 +73,13 @@
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5x-u3-p22">
-                                <rect key="frame" x="9" y="356.66666666666669" width="29" height="22.666666666666629"/>
+                                <rect key="frame" x="9" y="356.66666666666669" width="29" height="23"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <color key="textColor" red="0.36074692009999998" green="0.36081129309999999" blue="0.36073327059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="$0.00" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gkd-rP-xhU">
-                                <rect key="frame" x="111" y="201" width="192" height="84"/>
+                                <rect key="frame" x="53" y="200" width="308" height="84"/>
                                 <color key="textColor" red="0.36074692009999998" green="0.36081129309999999" blue="0.36073327059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="75"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
@@ -92,15 +92,18 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="eeS-Xg-nSG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="42" id="8ub-qv-txz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Gkd-rP-xhU" secondAttribute="trailing" constant="33" id="A33-rx-EoW"/>
                             <constraint firstItem="eeS-Xg-nSG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ECJ-pK-2Sl"/>
-                            <constraint firstItem="1iQ-II-HrU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="403" id="GpU-zJ-lbq"/>
                             <constraint firstItem="eeS-Xg-nSG" firstAttribute="top" secondItem="Gkd-rP-xhU" secondAttribute="bottom" constant="68.000000000000057" id="HAr-GQ-Nsu"/>
                             <constraint firstItem="E5x-u3-p22" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KNW-wQ-8EK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="eeS-Xg-nSG" secondAttribute="trailing" id="LW2-1O-5Rt"/>
+                            <constraint firstAttribute="trailing" secondItem="1iQ-II-HrU" secondAttribute="trailing" id="PgB-rK-hbe"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1iQ-II-HrU" secondAttribute="bottom" id="SIo-uH-Av8"/>
-                            <constraint firstAttribute="trailing" secondItem="1iQ-II-HrU" secondAttribute="trailing" id="dXE-PB-4HS"/>
-                            <constraint firstItem="1iQ-II-HrU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gMo-5D-ag7"/>
+                            <constraint firstItem="Gkd-rP-xhU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gR8-Xj-DtW"/>
+                            <constraint firstItem="1iQ-II-HrU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="j9d-dB-Pbm"/>
+                            <constraint firstItem="Gkd-rP-xhU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="33" id="o74-GQ-WFX"/>
                             <constraint firstItem="Gkd-rP-xhU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qIx-pU-0m8"/>
+                            <constraint firstItem="1iQ-II-HrU" firstAttribute="top" secondItem="eeS-Xg-nSG" secondAttribute="bottom" constant="40" id="yx7-gx-dX2"/>
                             <constraint firstItem="E5x-u3-p22" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-11" id="zLz-8b-J3D"/>
                         </constraints>
                         <connections>
@@ -145,14 +148,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Zn0-E8-QLu">
-                                <rect key="frame" x="82" y="179" width="302" height="31"/>
+                                <rect key="frame" x="82" y="135" width="302" height="31"/>
                                 <color key="maximumTrackTintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <action selector="defaultTipValueChanged:" destination="vPD-XK-Uo2" eventType="valueChanged" id="bwG-SG-Nsy"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lLd-8d-rWm">
-                                <rect key="frame" x="20" y="175" width="55" height="37"/>
+                                <rect key="frame" x="20" y="131" width="55" height="37"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="55" id="wmx-cO-wxg"/>
                                 </constraints>
@@ -161,14 +164,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w8d-BY-iER">
-                                <rect key="frame" x="147.66666666666669" y="339" width="119.00000000000006" height="58"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="119" id="APT-Yv-QAR"/>
-                                </constraints>
+                                <rect key="frame" x="164.66666666666666" y="341.66666666666669" width="85" height="53"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="36"/>
                                 <state key="normal" title="Save"/>
                                 <connections>
                                     <action selector="savePressed:" destination="vPD-XK-Uo2" eventType="touchUpInside" id="JyM-Eh-2Df"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="dR6-h9-Jas"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -176,12 +177,11 @@
                         <constraints>
                             <constraint firstItem="lLd-8d-rWm" firstAttribute="centerY" secondItem="Zn0-E8-QLu" secondAttribute="centerY" id="0Dl-yr-K1H"/>
                             <constraint firstItem="Zn0-E8-QLu" firstAttribute="top" secondItem="iNh-Cz-kEU" secondAttribute="bottom" constant="115" id="5B7-Ua-TEx"/>
-                            <constraint firstItem="w8d-BY-iER" firstAttribute="centerY" secondItem="3fv-to-iyK" secondAttribute="centerY" id="CrJ-yG-iUw"/>
                             <constraint firstItem="lLd-8d-rWm" firstAttribute="leading" secondItem="3fv-to-iyK" secondAttribute="leadingMargin" id="F4H-m6-yqn"/>
+                            <constraint firstItem="w8d-BY-iER" firstAttribute="centerX" secondItem="3fv-to-iyK" secondAttribute="centerX" id="Ppg-dj-qkW"/>
                             <constraint firstItem="lLd-8d-rWm" firstAttribute="top" secondItem="iNh-Cz-kEU" secondAttribute="bottom" constant="111" id="S7s-xT-Tqf"/>
-                            <constraint firstItem="4Zq-Xs-cHW" firstAttribute="top" secondItem="w8d-BY-iER" secondAttribute="bottom" constant="339" id="SnA-HG-MXp"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Zn0-E8-QLu" secondAttribute="trailing" constant="12" id="h9S-ce-4tg"/>
-                            <constraint firstItem="w8d-BY-iER" firstAttribute="centerX" secondItem="3fv-to-iyK" secondAttribute="centerX" id="kb0-va-4nr"/>
+                            <constraint firstItem="w8d-BY-iER" firstAttribute="centerY" secondItem="3fv-to-iyK" secondAttribute="centerY" id="m93-Wi-IGx"/>
                             <constraint firstItem="Zn0-E8-QLu" firstAttribute="leading" secondItem="lLd-8d-rWm" secondAttribute="trailing" constant="9" id="mbW-ih-63g"/>
                         </constraints>
                     </view>
@@ -219,5 +219,8 @@
         <image name="Dollar-Sign" width="230" height="247"/>
         <image name="Settings" width="25" height="25"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="dR6-h9-Jas"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.36074692009999998" green="0.36081129309999999" blue="0.36073327059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

@@ -24,7 +24,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
         billField.addDoneButtonToKeyboard(myAction:  #selector(self.billField.resignFirstResponder))
     }
     
-    override func viewDidAppear(_ animated: Bool) {
+//    override func viewDidAppear(_ animated: Bool) {
+//        let possibleDefaultTipPercent = UserDefaults.standard.string(forKey: "default_tip_percentage")
+//        if let defaultTipPercent = possibleDefaultTipPercent {
+//            let dtp = Float(defaultTipPercent)!
+//            tipSlider?.setValue(dtp, animated: true)
+//            tipPercentageLabel.text = "\(Int(dtp * 100))%"
+//        }
+//    }
+    
+    override func viewWillAppear(_ animated: Bool) {
         let possibleDefaultTipPercent = UserDefaults.standard.string(forKey: "default_tip_percentage")
         if let defaultTipPercent = possibleDefaultTipPercent {
             let dtp = Float(defaultTipPercent)!
