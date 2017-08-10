@@ -10,7 +10,7 @@ Time spent: **15-16** hours spent in total
 
 The following **required** functionality is complete:
 
-* checked # [checkbox:checked] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 * checked # [checkbox:checked] Settings page to change the default tip percentage.
 
 The following **optional** features are implemented:
