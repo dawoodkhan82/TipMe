@@ -512,6 +512,7 @@
 				8ED77BEC1F343329002CBEF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8ED77BED1F343329002CBEF5 /* Build configuration list for PBXNativeTarget "TipMeTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +521,7 @@
 				8ED77BEF1F343329002CBEF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8ED77BF01F343329002CBEF5 /* Build configuration list for PBXNativeTarget "TipMeUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +530,7 @@
 				8ED77BF21F343329002CBEF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
